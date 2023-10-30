@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="estilo.css">
+    <link rel="icon" href="icono.png">
+    <title>Untempo Store</title>
+
+    <!--Enlace CSS-->
+
+    <style>
+
+        @font-face {
+                font-family: fuente2;
+                src: url(Montserrat-Italic-VariableFont_wght.ttf);
+            }
+        
+    </style>
+
+</head>
+
+<body class="tcontainer">
+
+    <header class="header">
+
+        <nav class="container">
+
+            <div class="logo">
+
+                <img src="untempoNegro.png" width="300">
+    
+            </div>
+
+            <div class="acceso">
+
+                <ul>
+
+                    <li>
+    
+                        <a href="Hombres.html">Hombre</a>
+                        <a href="Mujer.html">Mujer</a>
+                        <a href="Descuentos.html">¡Verano 2023!</a>
+    
+                    </li>
+    
+                </ul>
+
+                <input type="text" class="buscar" placeholder="Buscar">
+                <button type="button" class= "but"id="btn">Buscar</button>
+
+            </div>   
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class ="scontainer">
+
+            <div class="imgmov img1">
+
+                <img src="DSC01371.jpg" alt="foto de persona posando ropa de Untempo" width="400" height="500">
+                <p>Buzo Untempo Blanco - sin capucha</p>
+                <h1>$30.000</h1>
+
+            </div>
+
+            <div class="imgmov img2">
+
+                <img src="DSC01420.jpg" alt="foto de persona posando ropa de Untempo" width="400" height="500"> 
+                <p>Buzo Untempo Negro - con capucha</p>
+                <h1>$30.000</h1>
+
+            </div>
+
+            <div class="imgmov img3">
+
+                <img src="DSC01424.jpg" alt="foto de persona posando ropa de Untempo" width="400" height="500">
+                <p>Buzo Untempo Negro - con capucha</p>
+                <h1>$30.000</h1>
+
+            </div>
+
+            <div class="imgmov img4">
+
+                <img src="DSC_0384.jpg" alt="foto de persona posando ropa de Untempo" width="400" height="500">
+                <p>Remera Untempo</p>
+                <h1>$15.000</h1>
+
+            </div>
+
+        </section>
+        <section class="scontainer2">
+
+            <div class="imgmov imagen1">
+
+                <img src="DSC01313.jpg" alt="foto de persona posando ropa de Untempo" width="400">
+                <p>Buzo Mujer Untempo - con capucha</p>
+                <h1>$30.000</h1>
+
+            </div>
+
+            <div class="imgmov imagen2">
+
+                <img src="DSC01407.jpg" alt="foto de persona posando ropa de Untempo" width="400">
+                <p>Buzo Mujer Untempo - con capucha</p>
+                <h1>$30.000</h1>
+
+            </div>
+
+            <div class="imgmov imagen3">
+
+                <img src="DSC01398.jpg" alt="foto de persona posando ropa de Untempo" width="400">
+                <p>Buzo Mujer Untempo - con capucha</p>
+                <h1>$30.000</h1>
+
+            </div>
+
+            <div class="imgmov imagen4">
+
+                <img src="DSC01385.jpg" alt="foto de persona posando ropa de Untempo" width="400">
+                <p>Buzo Mujer Untempo - con capucha</p>
+                <h1>$30.000</h1>
+
+            </div>
+
+        </section>
+
+    </main>
+    
+    <div class="container-form">
+        <div class="inf-form">
+
+            <h1>Contactanos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ut nemo sapiente tempora. Molestiae, voluptate similique? Recusandae praesentium voluptate sunt quidem fugit dolorem magnam nulla libero alias? Illo, praesentium quaerat.</p>
+            <a href="#"> <i class="fa fa-phone"></i>
+            123-456-789</a>
+            <a href="#"><i class="fa fa-envelope"></i>
+            untempostore@gmail.com</a>
+            <a href="#"><i class="fa fa-map-marked"></i>
+            Merlo - San Luis - Argentina</a>
+
+        </div>
+
+        <form id="frm" onsubmit="return enviar()">
+            
+            <input id="f_nombre"
+            placeholder="Ingresa tu nombre"
+            class="campo">
+
+            <input id="f_email" 
+            placeholder="Ingresa tu correo"
+            class="campo">
+
+            <select id="f_cliente" class="campo">
+                <option disabled selected value="">Tipo de Cliente</option>
+                <option>Cliente Nuevo</option>
+                <option>Cliente Antiguo</option>
+            </select>
+
+            <textarea id="f_consulta" placeholder="Consulta"></textarea>
+
+            <div class="boton_enviar">
+
+                <button type="submit" class="btnenviar">Enviar mensaje</button>
+
+            </div>
+            
+            <div class="d_error">
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <script src="javas.js"></script>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js"
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
